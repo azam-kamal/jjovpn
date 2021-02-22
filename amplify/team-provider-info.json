@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-jjovpn-dev-214137-authRole",
+      "UnauthRoleArn": "arn:aws:iam::953531947858:role/amplify-jjovpn-dev-214137-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::953531947858:role/amplify-jjovpn-dev-214137-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-jjovpn-dev-214137-deployment",
+      "UnauthRoleName": "amplify-jjovpn-dev-214137-unauthRole",
+      "StackName": "amplify-jjovpn-dev-214137",
+      "StackId": "arn:aws:cloudformation:us-east-1:953531947858:stack/amplify-jjovpn-dev-214137/9ac7cf30-6668-11eb-be92-0a374cd00e27",
+      "AmplifyAppId": "d2ec34398e563k"
+    },
+    "categories": {
+      "auth": {
+        "jjovpnaa38a98c": {}
+      }
+    }
+  }
+}

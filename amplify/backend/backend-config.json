@@ -1,0 +1,22 @@
+{
+  "auth": {
+    "jjovpnaa38a98c": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "analytics": {
+    "jjovpn": {
+      "service": "Pinpoint",
+      "providerPlugin": "awscloudformation"
+    }
+  },
+  "storage": {
+    "s3507b9132": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}

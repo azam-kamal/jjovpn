@@ -1,0 +1,21 @@
+{
+    "appName": "jjovpn",
+    "roleName": "pinpointLambdaRolee016154e",
+    "cloudformationPolicyName": "cloudformationPolicye016154e",
+    "cloudWatchPolicyName": "cloudWatchPolicye016154e",
+    "pinpointPolicyName": "pinpointPolicye016154e",
+    "authPolicyName": "pinpoint_amplify_e016154e",
+    "unauthPolicyName": "pinpoint_amplify_e016154e",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
